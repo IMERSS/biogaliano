@@ -1,0 +1,10 @@
+.DS_Store
+
+/node_modules
+
+.Rproj.user
+.Rhistory
+
+.idea/
+
+/data/sources/GBIF
