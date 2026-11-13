@@ -1,0 +1,96 @@
+# BioGaliano site — Hugo + blogdown, Hextra theme (vendored in themes/hextra).
+# Layout/styling derived from https://github.com/IMERSS/imerss-org
+baseURL: "https://biogaliano.org/"
+title: Biodiversity Galiano
+theme: "hextra"
+contentDir: content
+relativeUrls: true
+publishDir: docs          # GitHub Pages serves /docs. Add docs/CNAME only at cutover.
+enableRobotsTXT: true
+enableGitInfo: false
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Biodiversity Galiano
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.112.0"
+  workspace: hugo.work
+
+markup:
+  defaultMarkdownHandler: goldmark
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+enableInlineShortcodes: true
+
+# Mirrors the information architecture of the current WordPress site.
+menu:
+  main:
+    - {identifier: home,      name: Home,       pageRef: /,            weight: 1}
+    - {identifier: about,     name: About,      pageRef: /about,       weight: 2}
+    - {identifier: community, name: Community,  pageRef: /community,   weight: 3}
+    - {identifier: news,      name: News,       pageRef: /news,        weight: 4}
+    - {identifier: biodiversity, name: Biodiversity, pageRef: /biodiversity, weight: 5}
+    - {identifier: lifelist,  name: "Life List",       pageRef: /biodiversity/life-list,       parent: biodiversity, weight: 1}
+    - {identifier: sar,       name: "Species at Risk", pageRef: /biodiversity/species-at-risk, parent: biodiversity, weight: 2}
+    - {identifier: stats,     name: "Stats",           pageRef: /biodiversity/stats,           parent: biodiversity, weight: 3}
+    - {identifier: places,    name: Places,     pageRef: /places,      weight: 6}
+    - {identifier: records,   name: Records,    pageRef: /records,     weight: 7}
+    - {identifier: involved,  name: "Get Involved", pageRef: /inaturalist, weight: 8}
+    - {name: Search, weight: 9, params: {type: search}}
+
+params:
+  description: "A community-driven inventory of the flora and fauna of Galiano Island, British Columbia."
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo: {width: 35, height: 30}
+    width: wide
+  toc: false
+  page:
+    width: normal
+  theme:
+    default: system
+    displayToggle: true
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch: {index: content, tokenize: forward}
+  editURL:
+    enable: false
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
+  highlight:
+    copy: {enable: true, display: hover}
+  comments:
+    enable: false

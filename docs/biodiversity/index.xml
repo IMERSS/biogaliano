@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biodiversity Galiano – Biodiversity</title>
+    <link>http://localhost:1414/biodiversity/</link>
+    <description>Recent content in Biodiversity on Biodiversity Galiano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+      <atom:link href="http://localhost:1414/biodiversity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Life List</title>
+      <link>http://localhost:1414/biodiversity/life-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/biodiversity/life-list/</guid>
+      <description>
+        
+        
+        &lt;!-- PLACEHOLDER: interactive taxonomic visualisation (to be rebuilt; cf. Saanich atlas / imerss-bioinfo). --&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Species at Risk</title>
+      <link>http://localhost:1414/biodiversity/species-at-risk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/biodiversity/species-at-risk/</guid>
+      <description>
+        
+        
+        &lt;!-- PLACEHOLDER: species-at-risk gallery driven by curated data. --&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stats</title>
+      <link>http://localhost:1414/biodiversity/stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/biodiversity/stats/</guid>
+      <description>
+        
+        
+        &lt;!-- PLACEHOLDER: species-count summary (historically reported / confirmed / new / total). --&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

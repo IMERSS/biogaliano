@@ -1,0 +1,9 @@
+# Logos of funders and partners. List by key in a page's front matter
+# (e.g. `logos: [imerss]`). `ratio` = width/height; `density` = share of logo that is ink.
+# TODO: add Community Support organisations from the current biogaliano.org/community page.
+imerss:
+  name: Institute for Multidisciplinary Ecological Research in the Salish Sea
+  url: https://imerss.org/
+  logo: images/logos/imerss.svg
+  ratio: 1.0
+  density: 0.3
