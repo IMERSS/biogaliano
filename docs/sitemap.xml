@@ -2,32 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1414/</loc>
-    <lastmod>2026-11-13T00:00:00+00:00</lastmod>
+    <loc>/</loc>
   </url><url>
-    <loc>http://localhost:1414/news/</loc>
-    <lastmod>2026-11-13T00:00:00+00:00</lastmod>
+    <loc>/about/</loc>
   </url><url>
-    <loc>http://localhost:1414/about/</loc>
+    <loc>/biodiversity/</loc>
   </url><url>
-    <loc>http://localhost:1414/biodiversity/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>http://localhost:1414/categories/</loc>
+    <loc>/community/</loc>
   </url><url>
-    <loc>http://localhost:1414/community/</loc>
+    <loc>/inaturalist/</loc>
   </url><url>
-    <loc>http://localhost:1414/inaturalist/</loc>
+    <loc>/biodiversity/life-list/</loc>
   </url><url>
-    <loc>http://localhost:1414/biodiversity/life-list/</loc>
+    <loc>/news/</loc>
   </url><url>
-    <loc>http://localhost:1414/places/</loc>
+    <loc>/places/</loc>
   </url><url>
-    <loc>http://localhost:1414/records/</loc>
+    <loc>/records/</loc>
   </url><url>
-    <loc>http://localhost:1414/biodiversity/species-at-risk/</loc>
+    <loc>/biodiversity/species-at-risk/</loc>
   </url><url>
-    <loc>http://localhost:1414/biodiversity/stats/</loc>
+    <loc>/biodiversity/stats/</loc>
   </url><url>
-    <loc>http://localhost:1414/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Biodiversity Galiano – Biodiversity</title>
-    <link>http://localhost:1414/biodiversity/</link>
+    <link>/biodiversity/</link>
     <description>Recent content in Biodiversity on Biodiversity Galiano</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-      <atom:link href="http://localhost:1414/biodiversity/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/biodiversity/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,9 +16,9 @@
     
     <item>
       <title>Life List</title>
-      <link>http://localhost:1414/biodiversity/life-list/</link>
+      <link>/biodiversity/life-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1414/biodiversity/life-list/</guid>
+      <guid>/biodiversity/life-list/</guid>
       <description>
         
         
@@ -29,9 +29,9 @@
     
     <item>
       <title>Species at Risk</title>
-      <link>http://localhost:1414/biodiversity/species-at-risk/</link>
+      <link>/biodiversity/species-at-risk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1414/biodiversity/species-at-risk/</guid>
+      <guid>/biodiversity/species-at-risk/</guid>
       <description>
         
         
@@ -42,9 +42,9 @@
     
     <item>
       <title>Stats</title>
-      <link>http://localhost:1414/biodiversity/stats/</link>
+      <link>/biodiversity/stats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1414/biodiversity/stats/</guid>
+      <guid>/biodiversity/stats/</guid>
       <description>
         
         
